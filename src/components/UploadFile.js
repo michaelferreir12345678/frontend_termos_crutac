@@ -49,11 +49,9 @@ function UploadPage() {
   return (
     <div className="container mt-5">
       <p>
-        Amor, lembrando que a planilha tem que ter as colunas com os seguintes
-        títulos: Nome; CPF; Matricula; Endereco; Cidade/UF; Telefone
+        A planilha tem que ter as colunas com os seguintes
+        títulos: Nome;  CPF;  Matricula;  Endereco;  Cidade/UF;  Telefone
       </p>
-      <h6>E lembra também que Te amo</h6>
-
       <div className="mb-3">
         <input type="file" className="form-control" onChange={handleFileChange} />
       </div>
