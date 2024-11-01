@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <h1>Gerador de Termo de Compromisso de Estágio</h1>
       <UploadFile />
     </div>
   );

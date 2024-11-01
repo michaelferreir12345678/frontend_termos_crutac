@@ -48,7 +48,8 @@ function UploadPage() {
 
   return (
     <div className="container mt-5">
-      <p>
+      <h1>Gerador de Termo de Compromisso de Estágio</h1>
+      <p className="container mt-5">
         A planilha tem que ter as colunas com os seguintes
         títulos: Nome;  CPF;  Matricula;  Endereco;  Cidade/UF;  Telefone
       </p>
