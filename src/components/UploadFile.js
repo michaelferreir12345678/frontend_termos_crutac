@@ -21,7 +21,7 @@ function UploadPage() {
     setLoading(true); // Inicia o carregamento
 
     try {
-      const response = await fetch("https://backendtermoscrutac.fly.dev/upload", {
+      const response = await fetch("http://localhost:5000/upload", {
         method: "POST",
         body: formData,
       });
